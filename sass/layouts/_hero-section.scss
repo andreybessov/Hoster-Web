@@ -1,0 +1,70 @@
+.hero-section {
+    padding: 153px 0;
+    background: linear-gradient(83deg, #E9F8FF 0%, #F7EEFE 94.5%);
+
+    &__conteiner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__content {
+        width: 100%;
+        max-width: 520px;
+    }
+
+    &__image {
+        width: 100%;
+        max-width: 520px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 70px;
+        color: var(--color-brand-dark);
+        font-style: normal;
+        line-height: 87px;
+        margin-bottom: 16px;
+    }
+    
+    &__text {
+        margin: 0;
+        line-height: 38px;
+    }
+
+    &__button {
+        display: flex;
+        font-weight:900;
+        font-size: 14px;
+        align-items: center;
+        text-transform: uppercase;
+        padding: 20px 65px;
+        margin: 36px 0;
+        color: var(--color-white);
+        background-color: var(--color-button);
+        border: none;
+        border-radius: 32px;
+        cursor: pointer;
+    }
+
+    &__garant-money {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin: 0;
+            font-size: 16px;
+            line-height: 27px;
+        }
+    }
+
+    &__brand {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 31px 36px;
+    }
+
+    &__price {
+            margin-bottom: 58px;
+            margin-left: 110px;
+    }
+}

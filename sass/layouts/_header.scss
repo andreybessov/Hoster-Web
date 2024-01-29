@@ -1,0 +1,45 @@
+.header {
+padding: 20px 0;
+
+    &__conteiner{
+        display: flex;
+    }
+
+    &__nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 0;
+        gap: 24px;
+        padding-right: 48px;
+        margin: 0;
+
+    }
+
+    &__link {
+        text-decoration: none;
+        color: var(--color-brand-dark);
+
+        &:hover {
+           color: var(--color-price-light);
+        }
+    }
+
+    &__button {
+        color: var(--color-white);
+        background-color: var(--color-brand-dark);
+        font-weight: 900;
+        font-size: 14px;
+        border: none;
+        border-radius: 32px;
+        padding: 10px 33px;
+        cursor: pointer;
+    }
+}

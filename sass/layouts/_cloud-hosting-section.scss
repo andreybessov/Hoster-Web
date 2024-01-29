@@ -1,0 +1,49 @@
+.cloud-hosting-section {
+    padding-bottom: 140px;
+
+    &__conteiner {
+        display: flex;
+        justify-content: space-between;
+        padding: 76px 110px;
+        box-shadow: 0px 15px 64px 0px rgba(44, 75, 184, 0.10);
+        background-color: var(--color-white);
+        align-items: center;
+    }
+
+    &__price {
+        font-weight: 900;
+        font-size: 56px;
+        color: var(--color-price-light);
+
+        span {
+            font-size: 24px;
+        }
+    }
+
+    &__title {
+        color: var(--color-brand-dark);
+        font-weight: 700;
+        font-size: 40px;
+        text-transform: uppercase;
+        line-height: 44px;
+        margin: 0;
+    }
+
+    &__price {
+        margin: 0;
+    }
+
+    &__button {
+            display: flex;
+            align-items: center;
+            font-weight: 900;
+            font-size: 14px;
+            padding: 16px 48px;
+            border: none;
+            border-radius: 32px;
+            margin-top: 24px;
+            color: var(--color-white);
+            background-color: var(--color-brand-dark);
+            cursor: pointer;
+    }
+}

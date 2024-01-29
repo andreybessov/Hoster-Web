@@ -1,0 +1,56 @@
+.web-hosting-section {
+    padding-bottom: 80px;
+    margin-top: -76px;
+
+    &__conteiner {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 76px 110px;
+        background-color: var(--color-white);
+    }
+
+    &__price {
+        font-weight: 900;
+        font-size: 56px;
+        color: var(--color-price-light);
+        margin: 0;
+
+        span {
+            font-size: 24px;
+        }
+    }
+
+    &__title {
+        color: var(--color-brand-dark);
+        font-weight: 700;
+        font-size: 40px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    &__text {
+        margin: 0;
+        line-height: 38px;
+    }
+
+    &__price-text {
+        color: var(--color-price-light);
+        font-size: 16px;
+        margin: 32px 0 0;
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        font-weight: 900;
+        font-size: 14px;
+        padding: 16px 48px;
+        border: none;
+        border-radius: 32px;
+        margin-top: 24px;
+        color:var(--color-white);
+        background-color: var(--color-brand-dark);
+        cursor: pointer;
+    }
+}

@@ -87,9 +87,6 @@
         border-radius: 0 25px 25px 0;
         padding-right: 52px;
         cursor: pointer;
-
-        &:hover {
-            fill: var(--color-white);
-        }
+        fill: var(--color-white);
     }
 }

@@ -35,11 +35,18 @@ padding: 20px 0;
     &__button {
         color: var(--color-white);
         background-color: var(--color-brand-dark);
-        font-weight: 900;
+        border: 2px solid var(--color-brand-dark);
+        font-weight: 700;
         font-size: 14px;
-        border: none;
+        text-transform: uppercase;
         border-radius: 32px;
         padding: 10px 33px;
         cursor: pointer;
+
+        &:hover {
+            background-color: transparent;
+            color: var(--color-brand-dark);
+            border: 2px solid var(--color-brand-dark);
+        }
     }
 }

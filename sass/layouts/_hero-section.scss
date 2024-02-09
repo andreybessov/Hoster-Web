@@ -41,9 +41,19 @@
         margin: 36px 0;
         color: var(--color-white);
         background-color: var(--color-button);
-        border: none;
+        border: 2px solid var(--color-button);
         border-radius: 32px;
         cursor: pointer;
+
+        &:hover {
+            background-color: transparent;
+            color: var(--color-brand-dark);
+            border: 2px solid var(--color-button);
+
+            svg {
+                fill: var(--color-brand-dark);
+            }
+        }
     }
 
     &__garant-money {

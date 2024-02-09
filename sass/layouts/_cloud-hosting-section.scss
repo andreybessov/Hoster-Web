@@ -39,11 +39,22 @@
             font-weight: 900;
             font-size: 14px;
             padding: 16px 48px;
-            border: none;
+            border: 2px solid var(--color-brand-dark);
             border-radius: 32px;
             margin-top: 24px;
             color: var(--color-white);
             background-color: var(--color-brand-dark);
             cursor: pointer;
+            text-transform: uppercase;
+
+        &:hover {
+                background-color: transparent;
+                color: var(--color-brand-dark);
+                border: 2px solid var(--color-brand-dark);
+            
+            svg {
+                fill: var(--color-brand-dark);
+            }
+        }
     }
 }
